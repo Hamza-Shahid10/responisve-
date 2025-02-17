@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website with Bootstrap</title>
+    <title>Salt N Pepper with Bootstrap</title>
     <!-- Bootstrap 5 CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             padding-top: 50px;
@@ -18,7 +19,7 @@
     <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="./logo.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img width="180px" src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,15 +30,20 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#address">Franchise</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#footer">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
+                <span class="navbar-text">
+                    <!-- <button type="button" class="btn btn-outline-warning"></button> -->
+                    <button type="button" class="btn btn-outline-danger">Order Now</button>
+      
+                  </span>
             </div>
         </div>
 </nav>
@@ -151,8 +157,12 @@
   </div>
   </section>
 
-<!-- <addresses> -->
-  <div class="divider py-1 bg-danger"></div>
+
+<!-- <hr> -->
+
+<div id="address" class="divider py-1 bg-danger"></div> 
+
+<!-- ///////  <addresses> -->
 <section class="bg-dark text-light py-5">
 <div class="container">
   <h1 class="text-center mb-4">Salt'n Pepper</h1>
@@ -229,43 +239,167 @@
 </div>
 </section>
 
+<center>
+<div class="text-center text-light bg-dark" >
+    <h1 class="mb-2 w-100"><strong>Salt'n Pepper</strong></h1>
+    <p class="">
+        Express Franchises (Opening Soon)
+    </p>
+</div>
+
+<section class="bg-dark" >
+<div class="row row-cols-1 row-cols-md-3 g-4 py-5 ml-4 container">
+    <div class="col">
+    <div class="card h-100">
+        <img src="./location.png" class="card-img-top" alt="...">
+    </div>
+    </div><div class="col">
+    <div class="card h-100">
+        <img src="./location.png" class="card-img-top" alt="...">
+    </div>
+    </div><div class="col">
+    <div class="card h-100">
+        <img src="./location.png" class="card-img-top" alt="...">
+    </div>
+    </div><div class="col">
+    <div class="card h-100">
+        <img src="./location.png" class="card-img-top" alt="...">
+    </div>
+    </div><div class="col">
+    <div class="card h-100">
+        <img src="./location.png" class="card-img-top" alt="...">
+    </div>
+    </div><div class="col">
+    <div class="card h-100">
+        <img src="./location.png" class="card-img-top" alt="...">
+    </div>
+    </div>
+</div>
+</section>
+</center>
+
+<center>
+<div class="text-center text-light bg-dark" >
+    <h1 class="w-100"><strong>Salt'n Pepper</strong></h1>
+    <p class="">
+        Express Franchises (Opening Soon)
+    </p>
+</div>
+  
+<section class="bg-dark" >
+    <div class="row row-cols-1 row-cols-md-3 g-3 py-5 ml-3 container">
+        <div class="col">
+        <div class="card h-100">
+            <img src="https://static.tossdown.com/images/0e1296ae-9bcd-493a-a13f-81bd0a376fbb.webp" class="card-img-top" alt="...">
+        </div>
+        </div>
+        <div class="col">
+        <div class="card h-100">
+            <img src="https://static.tossdown.com/images/90ae7dd1-d505-40d1-a8ea-bce0ae9353f0.webp" class="card-img-top" alt="...">
+        </div>
+        </div><div class="col">
+        <div class="card h-100">
+            <img src="https://static.tossdown.com/images/ad91d5cd-9c6d-4233-8f33-55b18886c858.webp" class="card-img-top" alt="...">
+        </div>
+    </div>
+</section>
+    
+</center>
+
+<!-- footer////////////// -->
+<footer class="bg-body-tertiary text-center text-light" data-bs-theme="dark">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-2">
+        <!-- Facebook -->
+        <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="https://www.instagram.com/shawarmaexpress9/"
+        role="button"
+        ><i class="fab fa-instagram"></i
+        ></a>
 
 
-
-
-
-
-
-
-
-    <!-- Contact Section -->
-    <section class="container py-5">
-        <h2 class="text-center mb-4">Contact Us</h2>
-        <form>
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                </div>
-                <div class="col-md-6 mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                </div>
-                <div class="col-12 mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
-                </div>
-                <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </div>
-            </div>
-        </form>
     </section>
+    <!-- Section: Social media -->
+</div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2025 My Website. All rights reserved.</p>
-    </footer>
+
+<!-- Grid container -->
+<section class="">
+    <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-4 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <img width="120px" class="mb-2" src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="">
+            <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+            </p>
+
+        
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-4 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+            <p>
+            <i class="fas fa-envelope me-3"></i>
+            snpfood@brain.net.pk
+            </p>
+            <div class="row">
+                <p class="col-6"><i class="fas fa-phone me-3"></i> +92 42 111 100 678</p>
+                <p class="col-6"><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+        </div>
+        
+        <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+    </div>
+</section>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2025 Copyright:
+    <a class="text-body" href="#intro-example">Salad ka patta.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+
+
 
     <!-- Bootstrap 5 JS & Popper.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
